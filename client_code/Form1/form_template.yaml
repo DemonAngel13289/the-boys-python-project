@@ -7,7 +7,12 @@ components:
   properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
-  components: []
+  components:
+  - type: DatePicker
+    properties: {}
+    name: date_picker_1
+    layout_properties: {grid_position: 'HNDONK,JGCXPB'}
+    event_bindings: {show: date_picker_1_show}
 - type: FlowPanel
   properties: {}
   name: navbar_links

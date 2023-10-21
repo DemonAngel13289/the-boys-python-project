@@ -1,0 +1,17 @@
+Here's a basic explanation of this project's structure...
+
+Version of Python we're using: 3.9
+1) client_code is meant for the Anvil Server Portion of this project __ WERE NOT THERE YET
+
+2) server_code is meant for the Anvil Server Portion of this project __ WERE NTO THERE YET
+
+#######---Read Local_Code if you don't read anything else---#######
+3) local_code is meant for our code to be tested locally and to get the basis of our projects down
+before using the anvil editor to make changes UI support
+    -Eventually everyone will have to make an Anvil account, and we'll be using the anvil editor
+    and python to make this project pop on the front-end.
+#######---Read Local_Code if you don't read anything else---#######
+
+
+4) Additional Information:
+    Version of Python: 3.9

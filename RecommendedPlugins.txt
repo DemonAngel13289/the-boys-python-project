@@ -1,0 +1,17 @@
+Steps to getting to Plugins Marketplace:
+1) Select the cogwheel at the top right.
+2) Click "Settings"
+3) Click Plugins tab in the window that pops up, and you should now be able to search the
+Marketplace and also see installed plugins.
+
+
+
+Recommended Plugins that we can install to make this project more fun!
+---------------------------------------------------------------------
+Live Coding in Python - Play button inside turtle body
+CodeTogether - Yellow Image
+CodeGPT - ChatGPT icon in dark mode
+
+File Expander - Should be installed by default, but if not, go ahead and install it
+
+Add to this list as you see necessary

@@ -1,0 +1,10 @@
+W3_Schools: Python Learning
+    -https://www.w3schools.com/python/default.asp
+
+ChatGPT - Asking direct questions
+
+StackOverflow - https://stackoverflow.com
+    -This is just the base URL, but this is the typical
+    place to find solutions if you are stuck
+
+Add to this list as you see necessary

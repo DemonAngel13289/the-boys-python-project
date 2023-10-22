@@ -13,4 +13,10 @@
 #    -The Computer will select from one of the available options and pick a place to go
 #           -Random Selection of the number by the computer based on available locations
 #    -This continues until someone loses, a cat is drawn, or the user decides to quit
+# 4) The player gets a "You win!" screen when they win and a "You lose!" when they lose
 
+board = list([1, 2, 3, 4, 5, 6, 7, 8, 9])
+boardValues = list(['', '', '', '', '', '', '', '', ''])
+
+for x in board:
+    print("Number: " + str(x))

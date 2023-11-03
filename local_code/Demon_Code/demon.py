@@ -18,10 +18,14 @@
 # Reformat this to be a double array
 board = list([1, 2, 3, 4, 5, 6, 7, 8, 9])
 boardValues = list(['', '', '', '', '', '', '', '', ''])
+board2 = list([['_', '_', '_'],
+               ['_', '_', '_'],
+               ['_', '_', '_']])
 
 # 1) Ask the user for input if they want to play the game
 #   Needs to loop
 welcomeMsg = input("Welcome to the Tic-Tac-Toe game... would you like to play? (y/n)")
+
 
 # This is how I want the board to look when printed
 #   1 | 2 | 3
@@ -29,11 +33,30 @@ welcomeMsg = input("Welcome to the Tic-Tac-Toe game... would you like to play? (
 #   7 | 8 | 9
 #
 def printgameboard():
-    for x in range(0, len(boardValues)):
-        if x % 3 == 0:
-            print(str(board[x]) + boardValues[x] + " |" + "\n")
-        else:
-            print(str(board[x]) + boardValues[x] + " |")
+    for x in range(0, 3):
+        print(board2[x])
+
+# Checks the board and determines a winner if there is one
+def check_winner(gameBoard) -> bool:
+    print("TODO: STUB")
+    return false
+
+#Find available places for the computer to make a move
+def computer_move(gameBoard):
+    print("TODO: STUB")
+
+#Find available places for the player to make a move
+def player_move(gameBoard):
+    print("TODO: STUB")
+
+#Shows available options to make a move for the player
+def availableMoves() -> list:
+    print("TODO: STUB")
+    return []
+
+# Main gameplay loop
+def gameplay():
+    print("TODO: STUB")
 
 
 while welcomeMsg != "n":

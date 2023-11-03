@@ -15,9 +15,32 @@
 #    -This continues until someone loses, a cat is drawn, or the user decides to quit
 # 4) The player gets a "You win!" screen when they win and a "You lose!" when they lose
 
-#Made a code change in a comment
+# Reformat this to be a double array
 board = list([1, 2, 3, 4, 5, 6, 7, 8, 9])
 boardValues = list(['', '', '', '', '', '', '', '', ''])
 
-for x in board:
-    print("Number: " + str(x))
+# 1) Ask the user for input if they want to play the game
+#   Needs to loop
+welcomeMsg = input("Welcome to the Tic-Tac-Toe game... would you like to play? (y/n)")
+
+# This is how I want the board to look when printed
+#   1 | 2 | 3
+#   4 | 5 | 6
+#   7 | 8 | 9
+#
+def printgameboard():
+    for x in range(0, len(boardValues)):
+        if x % 3 == 0:
+            print(str(board[x]) + boardValues[x] + " |" + "\n")
+        else:
+            print(str(board[x]) + boardValues[x] + " |")
+
+
+while welcomeMsg != "n":
+    if welcomeMsg.lower() == "y":
+        print("Game Start function called.")
+        printgameboard()
+        break
+    else:
+        print("Invalid input - call welcome message again")
+        welcomeMsg = input("Welcome to the Tic-Tac-Toe game... would you like to play? (y/n)")
